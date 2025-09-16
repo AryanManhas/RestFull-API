@@ -34,6 +34,16 @@ app //Grouping
     return res.json({status : "Pending"})
 })
 
+app.post("/api/users" , (req , res)=>{
+  return res.json({status : "pending"})
+})
+
+app.post("/api/users" , (req , res)=>{
+  return res.json({status : "pending"})
+})
+
 app.listen(PORT, () => {
   console.log(`Server started at http://localhost:${PORT}`);
 });
+
+
